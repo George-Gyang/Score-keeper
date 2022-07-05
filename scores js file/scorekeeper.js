@@ -5,7 +5,7 @@ const player1ScorBoard = document.querySelector("#p1scoreboard")
 const player2ScorBoard = document.querySelector("#p2scoreboard")
 const highGameScore = document.querySelector("#gamelevels");
 
-
+alert("You're welcome to the show!!")
 winningScore = 5;
 let player1Score = 0
 let gameOver = false;

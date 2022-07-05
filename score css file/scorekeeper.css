@@ -25,7 +25,7 @@ img{
 .scores{
     text-align: center;
     margin-top: -100px;
-    color: black;
+    color: hsla(187, 93%, 53%, 0.973);
     font-size: xx-large;
 }
 
@@ -46,7 +46,7 @@ select{
 #reset{
     width: 70px;
     height: 30px;
-    background-color: hsl(0, 1%, 17%);
+    background-color: hsl(0, 100%, 51%);
     columns: red;
 }
 
