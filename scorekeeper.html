@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score css file\scorekeeper.css">
+    <title>scorekeeper</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>ScoreKeeping King</h1>
+        <div class="image">
+            <img src="https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?cs=srgb&dl=pexels-pixabay-209977.jpg&fm=jpg" alt="">
+        </div>
+        <div>
+            <h2 class="scores"> <span id="p1scoreboard">0</span> VS <span id="p2scoreboard">0</span></h2>
+            <p>Press the button to keep score</p>
+            <label for="">Game level:</label>
+            <select name="" id="gamelevels">
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+            </select>
+            <button id="reset">Reset</button>
+            <br>
+            <div class="btn-class">
+                <button id="playr1button">+1 player1</button><button id="playr2button">+1 player2</button>
+            </div>
+        </div>
+    </div>
+    <script src="scores js file\scorekeeper.js"></script>
+</body>
+
+</html>
